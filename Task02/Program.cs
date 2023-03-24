@@ -5,11 +5,14 @@ Console.Write("a:");
 int a = int.Parse(Console.ReadLine());
 Console.Write("b:");
 int b = int.Parse(Console.ReadLine());
-if (a > b)
-{
-    Console.WriteLine(a);
-}else
-{
-    Console.WriteLine(b);
-}
 
+int max = a;
+int min = b;
+if ( a > max ) max = a;
+if ( b > max ) max = b;
+if ( a < max ) min = a;
+if ( b < max ) min = b;
+    Console.Write("max = ");
+    Console.WriteLine(max);
+    Console.Write("min = ");
+    Console.WriteLine(min);
