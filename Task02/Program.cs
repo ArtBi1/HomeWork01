@@ -1,9 +1,9 @@
 ﻿//Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
 Console.Clear();
-Console.Write("a:");
+Console.Write("Введите первое число:");
 int a = int.Parse(Console.ReadLine());
-Console.Write("b:");
+Console.Write("Введите второе число:");
 int b = int.Parse(Console.ReadLine());
 
 int max = a;
@@ -12,7 +12,7 @@ if ( a > max ) max = a;
 if ( b > max ) max = b;
 if ( a < max ) min = a;
 if ( b < max ) min = b;
-    Console.Write("max = ");
+    Console.Write("Максимальное число = ");
     Console.WriteLine(max);
-    Console.Write("min = ");
+    Console.Write("Минимальное число = ");
     Console.WriteLine(min);
