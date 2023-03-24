@@ -4,5 +4,5 @@ Console.Clear();
 Console.Write("Введите число для проверки:");
 int a = int.Parse(Console.ReadLine());
 
-Console.WriteLine( a % 2 == 0 ? "Четное":"Не четное");
+Console.WriteLine(a % 2 == 0 ? "Четное":"Не четное");
 Console.WriteLine(a);
