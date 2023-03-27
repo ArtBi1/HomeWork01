@@ -80,9 +80,6 @@ else{
 
 
 
-
-
-
 //     Console.WriteLine($"У числа {a} нет третей цифры!");
 //     return;
 // }
