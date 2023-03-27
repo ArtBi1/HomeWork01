@@ -7,9 +7,9 @@ int a = int.Parse(Console.ReadLine());
 if ((a >= 100 && a <= 999))
 
 {
-    int b = a / 10; int c = b % 10;
+    int b = (a / 10)%10;
     
-    Console.Write($"Вторая цифра у числа {a} является цифрой {c}");
+    Console.Write($"Вторая цифра у числа {a} является цифрой {b}");
 }
 
     else{
