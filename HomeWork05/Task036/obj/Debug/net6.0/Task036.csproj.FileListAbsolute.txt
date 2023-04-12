@@ -1,0 +1,15 @@
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.csproj.AssemblyReference.cache
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.AssemblyInfoInputs.cache
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.AssemblyInfo.cs
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.csproj.CoreCompileInputs.cache
+C:\ProGeekBrains\HomeWork05\Task036\bin\Debug\net6.0\Task036.exe
+C:\ProGeekBrains\HomeWork05\Task036\bin\Debug\net6.0\Task036.deps.json
+C:\ProGeekBrains\HomeWork05\Task036\bin\Debug\net6.0\Task036.runtimeconfig.json
+C:\ProGeekBrains\HomeWork05\Task036\bin\Debug\net6.0\Task036.dll
+C:\ProGeekBrains\HomeWork05\Task036\bin\Debug\net6.0\Task036.pdb
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.dll
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\refint\Task036.dll
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.pdb
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\Task036.genruntimeconfig.cache
+C:\ProGeekBrains\HomeWork05\Task036\obj\Debug\net6.0\ref\Task036.dll
