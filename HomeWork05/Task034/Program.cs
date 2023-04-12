@@ -3,34 +3,24 @@
 // [345, 897, 568, 234] -> 2
 
 Console.Clear();
-
-Console.WriteLine("Введите размер массива");
-int size = int.Parse(Console.ReadLine());
-int[] nums = new int[size];
-RandomNumbers(nums);
-Console.WriteLine("Сгенерированный массив: ");
-PrintNums(nums);
-int count = 0;
-
-for (int i = 0; i < nums.Length; i++)
-if (nums[i] % 2 == 0)
-count++;
-
-
-
-void RandomNumbers(int[] nums)
-{
-    for(int j = 0; j < nums.Length; j++)
-    {
-        nums[j] = new Random().Next(100, 1000);
+Console.WriteLine("Введите размер массива:");
+int a = int.Parse(Console.ReadLine());
+int[] startArray = GetArray (a, 100, 1000); // Первой цифрой/переменной размер массива, 2-3 промежуток
+Console.WriteLine(String.Join(" ", startArray));
+Console.WriteLine($"Количество четных чисел в массиве равно {GetElements(startArray, 100, 1000)}");
+int [] GetArray (int size, int minValue, int maxValue) {
+    int [] res = new int [size];
+    for (int i = 0; i < size; i++) {
+        res[i] = new Random().Next(minValue, maxValue);
     }
-}
-void PrintNums(int[] nums)
-{
-    for(int k = 0; k < nums.Length; k++)
-    {
-        Console.Write (nums[k]+ " ");
+    return res;
     }
-    Console.WriteLine();
-}
-Console.WriteLine($"Массив состоит из {nums.Length} чисел, из них чётных {count}");
+    int GetElements(int [] arr, int minValue, int maxValue) {
+        int count = 0;
+        foreach (int i in arr)
+        {
+            if (i % 2 == 0)
+            count++;
+        }
+        return count;
+    }

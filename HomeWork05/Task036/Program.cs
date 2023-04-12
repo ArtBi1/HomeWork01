@@ -1,29 +1,35 @@
 ﻿// Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
+
+
 Console.Clear();
-
-int[] nums = new int[10];
-RandomNumbers(nums);
-Console.WriteLine("Одномерный массив, заполненный случайными числами: ");
-Print(nums);
+Console.WriteLine("Введите размер массива:");
+int a = int.Parse(Console.ReadLine());
+int[] MyArray = RandomArray (a, -100, 100); // (размер, диапазон массива, диапазон массива)
 int sum = 0;
-for (int i = 0; i < nums.Length; i+=2)
-        sum = sum + nums[i];
-        Console.WriteLine($"Cумма элементов, стоящих на нечётных позициях равна {sum}");
+Console.WriteLine(String.Join(" ", MyArray));
+Console.WriteLine($"Сумма нечетных элементов массива равна {SumElements(sum)}");
 
-void RandomNumbers(int[] nums)
+int[] RandomArray (int size, int minV, int maxV) 
 {
-    for(int i = 0; i < nums.Length; i++ )
-    
-        nums[i] = new Random().Next(-100,100); // Здесь можно задать нужный промежуток, среди которого будут генерироваться рандомные числа
-        }
-    
-void Print(int[] nums)
-{
-    for(int i = 0; i < nums.Length; i++)
+    int[] b = new int[size];
+    for (int i = 0; i < size; i++) 
     {
-        Console.Write(nums[i] + " ");
+        b[i] = new Random().Next(minV, maxV +1);
     }
-             Console.WriteLine();
+    return b;
+  }
+
+int SumElements (int sum) 
+    {
+    for (int i = 0; i < MyArray.Length; i++) 
+    {
+        if (i % 2 == 0)
+    
+        {
+            sum += MyArray[i];
+        }
+    }
+    return sum;
 }
