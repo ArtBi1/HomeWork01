@@ -1,0 +1,15 @@
+C:\ProGeekBrains\HomeWork06\41\bin\Debug\net6.0\41.exe
+C:\ProGeekBrains\HomeWork06\41\bin\Debug\net6.0\41.deps.json
+C:\ProGeekBrains\HomeWork06\41\bin\Debug\net6.0\41.runtimeconfig.json
+C:\ProGeekBrains\HomeWork06\41\bin\Debug\net6.0\41.dll
+C:\ProGeekBrains\HomeWork06\41\bin\Debug\net6.0\41.pdb
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.csproj.AssemblyReference.cache
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.AssemblyInfoInputs.cache
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.AssemblyInfo.cs
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.csproj.CoreCompileInputs.cache
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.dll
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\refint\41.dll
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.pdb
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\41.genruntimeconfig.cache
+C:\ProGeekBrains\HomeWork06\41\obj\Debug\net6.0\ref\41.dll
