@@ -26,12 +26,15 @@ if (col1 != row2)
 // else Console.WriteLine("Умножение возможно");
 
  // Ввод элементов
-int[,] one = Array(row1, col1, 0, 10);
-int[,] two = Array(row2, col2, 0, 10);
+int[,] one = Array(row1, col1, 0, 9); //цифры в первом массиве от 0 до 9
+int[,] two = Array(row2, col2, 1, 9); //цифры во втором массиве от 1 до 9
+Console.WriteLine("Первый массив:");
 Print(one);
 Console.WriteLine();
+Console.WriteLine("Второй массив:");
 Print(two);
 Console.WriteLine();
+Console.WriteLine("Произведение двух матриц:");
 Print(MatrixMultiplication(one,two));
 
 int[,] Array(int a, int b, int min, int max)
@@ -59,7 +62,7 @@ void Print(int[,] go)
     }
 }
 int[,] MatrixMultiplication(int[,] ArrOne, int[,] ArrTwo)
- {   
+    {   
     int[,] Arr = new int [ArrOne.GetLength(0),ArrTwo.GetLength(1)];
     for (int i = 0; i < ArrOne.GetLength(0); i++)
    {
@@ -70,6 +73,6 @@ int[,] MatrixMultiplication(int[,] ArrOne, int[,] ArrTwo)
             Arr[i, j] += ArrOne[i, n] * ArrTwo[n, j];
         }
     }
-  } 
+    } 
   return Arr;
   }
