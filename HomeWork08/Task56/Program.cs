@@ -64,6 +64,6 @@ for (int i = 1; i<a.GetLength(0);i++)
             min = num;
             b = i;
         }
-    }
+        }
         return b;
 }
