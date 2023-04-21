@@ -18,7 +18,7 @@ int[,] numbers = new int[rows,columns];
 RandomNumbers(numbers);
 Console.WriteLine();
 Console.WriteLine($"Массив до изменения:");
-PrintArray(numbers);
+Print(numbers);
 
 for (int i = 0; i < numbers.GetLength(0); i++)
 {
@@ -38,7 +38,7 @@ for (int i = 0; i < numbers.GetLength(0); i++)
 }
 Console.WriteLine();
 Console.WriteLine("Отсортированный массив:");
-PrintArray(numbers);
+Print(numbers);
 
 void RandomNumbers(int[,] array)
 {
@@ -51,7 +51,7 @@ void RandomNumbers(int[,] array)
     }
 }
 
-void PrintArray(int[,] array)
+void Print(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
